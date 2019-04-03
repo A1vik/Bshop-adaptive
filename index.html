@@ -5,6 +5,48 @@
     <title>Title</title>
 </head>
 <body>
-
+    <header class="page-header">
+        <a href="#" class="page-header__logo">
+            <img src="" alt="Барбершоп 'Бородинсикий'" class="page-header__logo-image">
+        </a>
+    </header>
+    <nav class="main-nav">
+        <button class="main-nav__toggle">Открыть меню</button>
+        <div class="main-nav__wrapper">
+            <ul class="main-nav__list site-list">
+                <li class="site-list__item site-list__item--active"><a href="#">Главная</a></li>
+                <li class="site-list__item"><a href="#">Наши работы</a></li>
+                <li class="site-list__item"><a href="#">Записаться</a></li>
+                <li class="site-list__item"><a href="#">Контакты</a></li>
+                <li class="site-list__item"><a href="#">HTML Academy</a></li>
+            </ul>
+            <ul class="main-nav__list user-list">
+                <li class="user-list__item">
+                    <a href="#" class="user-list__login">Войти</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="page-main">
+        <h1 class="visually-hidden">Барбершоп "Бородинский"</h1>
+        <section class="stats">
+            <header class="stats__header">
+                <h2>Статистика барбершопа</h2>
+                <b class="stats__slogan">Cтрижка у нас это выгодно!</b>
+                <p class="stats__intro">Мужская стрижка требует точного подхода. Обратимся к статистике:</p>
+                <small class="stats__legend stats__legend--top">
+                    <sup>*</sup> - приведенные данные ложь
+                </small>
+            </header>
+            <table class="stats__list">
+                <tr>
+                    <td class="stats__value">
+                        1 500 <sup>*</sup>
+                    </td>
+                    <td class="stats__field">Рублей <br>Вложений</td>
+                </tr>
+            </table>
+        </section>
+    </main>
 </body>
 </html>
